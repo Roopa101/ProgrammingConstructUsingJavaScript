@@ -1,4 +1,3 @@
-//let year= console.log
 let year =Math.floor(Math.random()* 9000 +1000)
 console.log(year)
 
