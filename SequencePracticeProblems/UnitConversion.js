@@ -1,0 +1,11 @@
+let oneFootInInches = 12;
+let oneInchInFoot = 1/oneFootInInches;
+let inputInch = 42;
+let convertInchToFoot = inputInch * oneInchInFoot;
+console.log(inputInch + ' inches in foot equals ' + convertInchToFoot + 'ft' );
+console.log('Input Area = 60ft * 40ft ');
+let lengthfeet = 60;
+let breadthfeet = 40;
+let area = (lengthfeet * 3.28) * (breadthfeet * 3.28);
+console.log('Converted Area = '+area +' sq meter');
+console.log('Area of 25 such plots: '+25*area*0.00024+' acres'); 
