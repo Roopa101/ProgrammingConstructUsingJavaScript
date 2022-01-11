@@ -2,11 +2,11 @@
 const ps=require('prompt-sync')
 const prompt=ps();
 var number=parseInt(prompt("Enter The number: "))
-var a =0;
-for (a = 1; a <= number; a++)
+var i =0;
+for (i = 1; i <= number; i++)
 {
-    if (number % a == 0)
+    if (number % i == 0)
     {
-        console.log(a + " is a factor of " + number);
+        console.log(i + " is a factor of " + number);
     }
 }
